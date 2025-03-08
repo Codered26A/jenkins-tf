@@ -6,3 +6,8 @@ variable "region" {
     type = string
     default = "ap-south-1"
 }
+
+variable "test" {
+    type = string
+    default = "abc"
+}
