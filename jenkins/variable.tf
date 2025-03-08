@@ -3,5 +3,6 @@ variable "vpc_id" {
 }
 
 variable "region" {
-  default = "ap-south-1"
+    type = string
+    default = "ap-south-1"
 }
